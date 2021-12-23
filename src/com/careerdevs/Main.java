@@ -68,3 +68,49 @@ public static String giveMeSomething(String a) {
     public static int getCount(String str) {
         return str.replaceAll("[^aeiouAEIOU]", "").length();
     }
+
+
+    // alg 10
+
+public class SumOfTwoNumbers {
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+}
+
+//alg 11
+public static boolean isSameNum(int x, int y) {
+    if(x == y)
+        return true;
+    else
+        return false;
+}
+}
+
+//alg 12
+public class Age {
+    public static int calcAge(int age) {
+        return age * 365;
+    }
+}
+
+//alg 13
+
+Public class Challenge {
+    public static String helloName(String name) {
+        String newString = "Hello " + name + "!";
+        return newString;
+    }
+}
+
+//alg 14
+public class ReverseOrder {
+    public static String reverse(final String str) {
+        String reverse = "";
+        for(int i= str.length()-1;i>= 0; i--)
+        {
+            reverse = reverse + str.charAt(i);
+        }
+        return reverse;
+    }
+}
