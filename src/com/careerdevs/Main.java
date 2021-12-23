@@ -114,3 +114,19 @@ public class ReverseOrder {
         return reverse;
     }
 }
+
+//challng area of triangle
+public class Challenge {
+    public static int triArea(int base, int height) {
+        return (base * height)/2;
+    }
+}
+
+//challange multiple of 100
+public class Challenge {
+    public static boolean divisible(int num) {
+        return (num % 100 == 0);
+    }
+}
+
+//challange rook
